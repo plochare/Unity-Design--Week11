@@ -842,6 +842,8 @@ Mobile VR → avoid fog unless baked or extremely cheap.
 
 * Light Your World in Unity (1 min tutorial)
 * https://m.youtube.com/watch?v=NOv31HSqs6U
+* Meta Quest Super Resolution
+* https://developers.meta.com/horizon/blog/vr-image-quality-meta-quest-super-resolution/
 * Optimize VR Settings
 * https://www.youtube.com/watch?v=BeB9Cx_msKA
 * https://www.youtube.com/watch?v=Jgf3F--VoPg
@@ -854,8 +856,13 @@ Mobile VR → avoid fog unless baked or extremely cheap.
 * https://m.youtube.com/watch?v=OLVvQlepNOI&pp=0gcJCR4Bo7VqN5tD
 * Level Design in Unity
 * https://m.youtube.com/watch?v=SF2H0TxfgqM&pp=ugUEEgJlbg%3D%3D
+* High Quality Visuals on Quest
+* https://developers.meta.com/horizon/blog/vr-unity-sample-for-developing-high-quality-visuals-on-quest-how-to-get-started-tips-from-arabian-art-studios/
+* Quest Headset Performance Hack
+* https://www.youtube.com/watch?v=MuZJKKrzl2g
 
 ---
+
 
 
 
