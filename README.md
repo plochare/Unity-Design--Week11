@@ -2,16 +2,16 @@
 
 ## Agenda
 
-1. [Locomotion Categories](#locomotion-categories)
+1. [VR Locomotion](#vr-locomotion)
 2. [Physical Locomotion](#physical-locomotion)
 3. [Artificial Locomotion](#artificial-locomotion)
-4. [Comfort Considerations](#comfort-considerations)
-5. [Meta SDK Teleport Building Block](#teleport-building-block)
-6. [Transfering Assets within Unity Scenes](#transfering-assets)
+4. [Meta SDK Teleport Building Block](#teleport-building-block)
+5. [Transfering Assets within Unity Scenes](#transfering-assets)
+5. [Better VR Visuals](#better-vr-visuals)
 
 ---
 
-## Locomotion Categories
+## VR Locomotion 
 
 Locomotion is a core component of VR interaction design. Because VR movement affects comfort, presence, and gameplay, developers must select methods that match their experience goals while minimizing motion sickness. VR locomotion methods generally fall into two groups:
 
