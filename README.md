@@ -6,8 +6,9 @@
 2. [Physical Locomotion](#physical-locomotion)
 3. [Artificial Locomotion](#artificial-locomotion)
 4. [Meta SDK Teleport Building Block](#teleport-building-block)
-5. [Transfering Assets within Unity Scenes](#transfering-assets)
-5. [Better VR Visuals](#better-vr-visuals)
+5. [Locomotion with Unity XR Interaction Toolkit](#xr-interaction-toolkit)
+6. [Transfering Assets within Unity Scenes](#transfering-assets)
+7. [Better VR Visuals](#better-vr-visuals)
 
 ---
 
@@ -301,11 +302,43 @@ This variant uses colliders to block teleportation into restricted areas. Instea
 
 ---
 
-Below is a polished, well-structured **GitHub README** outlining the different ways to move hierarchy objects **from Unity Scene to Scene** and **from one Unity Project to another**. It is formatted for technical clarity and practical workflows.
+
+## Hand-Pose Locomotion with Unity XR Interaction Toolkit
+
+A clean, extensible example of using **custom hand poses** to drive **locomotion actions**—including movement, turning, and teleportation—within VR projects built on the **Unity XR Interaction Toolkit (XRI)**
+
+* **Hand Pose Recognition Pipeline**
+
+  * Uses XR Hands or your preferred hand-tracking provider.
+  * Detects poses through finger curl/spread thresholds or machine-learned pose assets.
+  * Supports stable pose locking, transitions, and cancellation.
+
+* **Locomotion Mappings**
+
+  * **Move Forward / Strafe** — e.g., “Point” or “Thumbs Up” pose + hand orientation.
+  * **Snap or Smooth Turn** — e.g., “Fist” or “Pinch” pose.
+  * **Teleportation Trigger** — e.g., long pinch to activate teleport ray.
+  * **Locomotion Disable** — open palm safety pose.
+
+* **Modular Interaction Toolkit Integration**
+
+  * Works with XRI **LocomotionProvider**, **TeleportationProvider**, **SnapTurnProvider**, and **ContinuousMoveProvider**.
+  * Drop-in hand pose locomotion actions using C# interfaces and ScriptableObjects.
+  * Clean separation between input detection → gesture state → movement logic.
+
+* **VR Friendly**
+
+  * Designed for Quest, Pico, or PCVR hand-tracking.
+  * Built following XRI best practices and new XR Hands package APIs.
+
+* **Video Tutorial**
+* https://www.youtube.com/watch?v=gg1eiCrY0e8
+* **Locomotion Area - Unity Learn**
+* https://learn.unity.com/tutorial/locomotion-and-teleportation-in-the-xr-interaction-toolkit
 
 ---
 
-## Unity Object Transfer Guide
+## Unity Game Objects Transfer Guide
 
 Unity allows many workflows to move GameObjects between scenes and between projects. However, the best method depends on whether you also need to preserve:
 
