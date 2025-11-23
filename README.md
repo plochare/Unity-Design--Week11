@@ -842,6 +842,10 @@ Mobile VR → avoid fog unless baked or extremely cheap.
 
 * Light Your World in Unity (1 min tutorial)
 * https://m.youtube.com/watch?v=NOv31HSqs6U
+* Optimize VR Settings
+* https://www.youtube.com/watch?v=BeB9Cx_msKA
+* https://www.youtube.com/watch?v=Jgf3F--VoPg
+* https://www.youtube.com/watch?v=BQcZyxJVgZw
 * Lighting And Post-Processing Low Poly Scene
 * https://m.youtube.com/watch?v=uwYf1yMPuvk
 * LIGHT BAKING in Unity (URP Version)
