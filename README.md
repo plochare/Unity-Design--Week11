@@ -192,6 +192,7 @@ Meta provides three main teleportation workflows:
 | **Hotspot Teleport**         | Teleport to pre-defined markers or “stations”             |
 | **Physics Blocker Teleport** | Prevent teleporting into restricted areas using colliders |
 
+![Teleport Building Block](images/teleport.png)
 ---
 
 ## Importing the Teleport Building Block
